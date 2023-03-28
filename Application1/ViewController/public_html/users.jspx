@@ -52,7 +52,7 @@
                     </af:column>
                     <af:column sortProperty="#{bindings.UsersView1.hints.FullName.name}" filterable="true"
                                sortable="true" headerText="#{bindings.UsersView1.hints.FullName.label}" id="c4">
-                        <af:inputText value="#{row.bindings.FullName.inputValue}"
+                        <af:inputText rendered="true" value="#{row.bindings.FullName.inputValue}"
                                       label="#{bindings.UsersView1.hints.FullName.label}"
                                       required="#{bindings.UsersView1.hints.FullName.mandatory}"
                                       columns="#{bindings.UsersView1.hints.FullName.displayWidth}"
