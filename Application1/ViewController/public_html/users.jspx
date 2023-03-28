@@ -38,7 +38,7 @@
                         </af:inputText>
                     </af:column>
                     <af:column sortProperty="#{bindings.UsersView1.hints.UserId.name}" filterable="true" sortable="true"
-                               headerText="#{bindings.UsersView1.hints.UserId.label}" id="c3">
+                               rendered="true" headerText="#{bindings.UsersView1.hints.UserId.label}" id="c3">
                         <af:inputText value="#{row.bindings.UserId.inputValue}"
                                       label="#{bindings.UsersView1.hints.UserId.label}"
                                       required="#{bindings.UsersView1.hints.UserId.mandatory}"
